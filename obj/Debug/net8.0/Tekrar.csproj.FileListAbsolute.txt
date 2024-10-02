@@ -12,3 +12,4 @@
 /Users/emrahelis/Tekrar/obj/Debug/net8.0/Tekrar.pdb
 /Users/emrahelis/Tekrar/obj/Debug/net8.0/Tekrar.genruntimeconfig.cache
 /Users/emrahelis/Tekrar/obj/Debug/net8.0/ref/Tekrar.dll
+/Users/emrahelis/Tekrar/obj/Debug/net8.0/Tekrar.sourcelink.json

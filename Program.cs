@@ -54,6 +54,68 @@ for(;;){
     Console.WriteLine("Bu hafta bilinen sayı adedi : {0}",bilinen);
 }*/
 
-int rakam = int.Parse(Console.ReadLine());
+/*string ekran = Console.ReadLine();
+// ekran değerinin ne olduğuna bakabilirsin
+int rakam = int.Parse(ekran);
+*/
 
+
+
+/*for (int i =0;i<10;i++){
+
+    if(i==8){
+        break;
+    }
+    Console.WriteLine(i);
+}
+*/
+
+// sayı tahmin oyunu bir kullanının 10 hakkı olsun, 10 hakta sayıyı bilemez ise, 3 oyun hakkı daha olsun
+
+Random rnd = new Random();
+
+Console.WriteLine("Sayı tahmin oyununa hoşgeldiniz");
+
+for (int i = 0; i < 3; i++)
+{
+    Console.WriteLine("{0}. hakkı oynuyorsunuz", i + 1);
+    bool bilerekmiBitti = false;
+    int random = rnd.Next(1, 100);
+    for (int j = 0; j < 10; j++)
+    {
+
+        Console.WriteLine("{0}. tahmini giriniz", j + 1);
+        int tahmin = int.Parse(Console.ReadLine());
+        if (tahmin < random)
+        {
+            Console.WriteLine("Yukarı");
+        }
+        else if (tahmin > random)
+        {
+            Console.WriteLine("Aşağı");
+        }
+        else if (tahmin == random)
+        {
+
+            bilerekmiBitti = true;
+            // bildiği için oyun bitti döngüden çıkabiliriz.
+            break;
+        }
+
+    }
+    if (bilerekmiBitti)
+    {
+        Console.WriteLine("Tebrikler kazandınız");
+    }
+    else
+    {
+        Console.WriteLine("Kaybettiniz");
+        Console.WriteLine("{0} hakkınız kaldı devam etmek için x tuşuna basın", 3 - i);
+        string result = Console.ReadLine();
+        if (result == "x")
+        {
+            continue;
+        }
+    }
+}
 
