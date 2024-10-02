@@ -1,0 +1,14 @@
+/Users/emrahelis/Tekrar/bin/Debug/net8.0/Tekrar
+/Users/emrahelis/Tekrar/bin/Debug/net8.0/Tekrar.deps.json
+/Users/emrahelis/Tekrar/bin/Debug/net8.0/Tekrar.runtimeconfig.json
+/Users/emrahelis/Tekrar/bin/Debug/net8.0/Tekrar.dll
+/Users/emrahelis/Tekrar/bin/Debug/net8.0/Tekrar.pdb
+/Users/emrahelis/Tekrar/obj/Debug/net8.0/Tekrar.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emrahelis/Tekrar/obj/Debug/net8.0/Tekrar.AssemblyInfoInputs.cache
+/Users/emrahelis/Tekrar/obj/Debug/net8.0/Tekrar.AssemblyInfo.cs
+/Users/emrahelis/Tekrar/obj/Debug/net8.0/Tekrar.csproj.CoreCompileInputs.cache
+/Users/emrahelis/Tekrar/obj/Debug/net8.0/Tekrar.dll
+/Users/emrahelis/Tekrar/obj/Debug/net8.0/refint/Tekrar.dll
+/Users/emrahelis/Tekrar/obj/Debug/net8.0/Tekrar.pdb
+/Users/emrahelis/Tekrar/obj/Debug/net8.0/Tekrar.genruntimeconfig.cache
+/Users/emrahelis/Tekrar/obj/Debug/net8.0/ref/Tekrar.dll
